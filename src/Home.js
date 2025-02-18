@@ -3,24 +3,13 @@ import "./Home.css"
 const Home = () => {
   return (
     <main className="portfolio-main">
-      <img src="/placeholder.jpg" alt="Background Image" className="background-image" />
+      <img src="https://www.shutterstock.com/image-photo/blank-black-corporate-stationery-on-600nw-1051434977.jpg" alt="Background Image" className="background-image" />
       <div className="overlay" />
       <div className="content">
         <h1 className="title">LMN Developer</h1>
         <p className="subtitle">Transformând idei în experiențe digitale remarcabile</p>
-        <div className="button-container">
-          <a href="#about" className="button button-primary">
-            Despre mine
-          </a>
-          <a href="#projects" className="button button-secondary">
-            Proiecte
-          </a>
-          <a href="#contact" className="button button-outline">
-            Contact
-          </a>
-        </div>
         <div className="social-links">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
+          <a href="https://github.com/georgelemnosanu" target="_blank" rel="noopener noreferrer" className="social-link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -36,7 +25,7 @@ const Home = () => {
             </svg>
             <span className="sr-only">GitHub</span>
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-link">
+          <a href="https://www.linkedin.com/in/lemnosanu-george-1b3523245/" target="_blank" rel="noopener noreferrer" className="social-link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -54,7 +43,7 @@ const Home = () => {
             </svg>
             <span className="sr-only">LinkedIn</span>
           </a>
-          <a href="mailto:contact@lmndeveloper.com" className="social-link">
+          <a href="mailto:georgelemnosanu@gmail.com" className="social-link">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
