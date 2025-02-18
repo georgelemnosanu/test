@@ -18,8 +18,8 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element ={<Home/>} />
-        <Route path="/privacy" element ={<PrivacyAndPolicy/>} />
-        <Route path="/terms" element ={<TermsAndServices/>} />
+        <Route path="/privacy/" element ={<PrivacyAndPolicy/>} />
+        <Route path="/terms/" element ={<TermsAndServices/>} />
       </Routes>
     </Router>
   );
