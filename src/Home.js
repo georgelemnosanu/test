@@ -7,7 +7,7 @@ const Home = () => {
       <div className="overlay" />
       <div className="content">
         <h1 className="title">LMN Developer</h1>
-        <p className="subtitle">Transformând idei în experiențe digitale remarcabile</p>
+        <p className="subtitle">Transforming ideas into remarkable digital experiences</p>
         <div className="social-links">
           <a href="https://github.com/georgelemnosanu" target="_blank" rel="noopener noreferrer" className="social-link">
             <svg
